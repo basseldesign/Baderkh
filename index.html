@@ -1,0 +1,223 @@
+<html><head>
+<title></title>
+<meta charset="utf-8">
+<meta content="width=device-width" name="viewport">
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&amp;display=swap" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet" type="text/css">
+<style>
+		.bee-row,
+		.bee-row-content {
+			position: relative
+		}
+
+		.bee-row-1,
+		.bee-row-2 {
+			background-repeat: no-repeat
+		}
+
+		body {
+			background-color: #fff;
+			color: #000;
+			font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif
+		}
+
+		a {
+			color: #fff
+		}
+
+		* {
+			box-sizing: border-box
+		}
+
+		body,
+		h1 {
+			margin: 0
+		}
+
+		.bee-row-content {
+			max-width: 1440px;
+			margin: 0 auto;
+			display: flex
+		}
+
+		.bee-row-content .bee-col-w3 {
+			flex-basis: 25%
+		}
+
+		.bee-row-content .bee-col-w6 {
+			flex-basis: 50%
+		}
+
+		.bee-row-content .bee-col-w12 {
+			flex-basis: 100%
+		}
+
+		.bee-button .content {
+			text-align: center
+		}
+
+		.bee-button a,
+		.bee-icon .bee-icon-label-right a {
+			text-decoration: none
+		}
+
+		.bee-divider,
+		.bee-image {
+			overflow: auto
+		}
+
+		.bee-divider .center,
+		.bee-image .bee-center {
+			margin: 0 auto
+		}
+
+		.bee-icon,
+		.bee-icon .bee-icon-image,
+		.bee-icon .bee-icon-label-right {
+			display: inline-block
+		}
+
+		.bee-icon {
+			vertical-align: middle
+		}
+
+		.bee-icon .bee-icon-image {
+			vertical-align: middle;
+			margin-right: -4px
+		}
+
+		.bee-image img {
+			display: block;
+			width: 100%
+		}
+
+		@media (max-width:768px) {
+			.bee-row-content:not(.no_stack) {
+				display: block
+			}
+		}
+
+		.bee-row-1 {
+			background-color: #000
+		}
+
+		.bee-row-1 .bee-row-content,
+		.bee-row-2 .bee-row-content {
+			background-repeat: no-repeat;
+			color: #000
+		}
+
+		.bee-row-1 .bee-col-1 {
+			padding-left: 15px;
+			padding-right: 15px;
+			padding-top: 15px
+		}
+
+		.bee-row-1 .bee-col-1 .bee-block-1,
+		.bee-row-1 .bee-col-2 .bee-block-1,
+		.bee-row-1 .bee-col-2 .bee-block-3,
+		.bee-row-1 .bee-col-2 .bee-block-5,
+		.bee-row-1 .bee-col-3 .bee-block-1 {
+			padding: 5px
+		}
+
+		.bee-row-1 .bee-col-2,
+		.bee-row-1 .bee-col-3 {
+			padding-top: 5px
+		}
+
+		.bee-row-1 .bee-col-2 .bee-block-2,
+		.bee-row-1 .bee-col-2 .bee-block-4 {
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-1 .bee-col-2 .bee-block-6 {
+			padding: 15px 10px;
+			text-align: center
+		}
+
+		.bee-row-1 .bee-col-2 .bee-block-7 {
+			padding-bottom: 45px;
+			padding-right: 5px;
+			padding-top: 45px;
+			width: 100%
+		}
+
+		.bee-row-2 .bee-col-1,
+		.bee-row-2 .bee-col-1 .bee-block-1 {
+			padding-bottom: 5px;
+			padding-top: 5px
+		}
+
+		.bee-row-2 .bee-col-1 .bee-block-1 {
+			color: #9d9d9d;
+			font-family: inherit;
+			font-size: 15px;
+			text-align: center
+		}
+
+		.bee-row-2 .bee-col-1 .bee-block-1 .bee-icon-image {
+			padding: 5px 6px 5px 5px
+		}
+
+		.bee-row-2 .bee-col-1 .bee-block-1 .bee-icon {
+			margin-left: 0;
+			margin-right: 0
+		}
+	</style>
+</head>
+<body>
+<div class="bee-page-container">
+<div class="bee-row bee-row-1">
+<div class="bee-row-content">
+<div class="bee-col bee-col-1 bee-col-w3">
+<div class="bee-block bee-block-1 bee-divider">
+<div class="spacer" style="height:10px;"></div>
+</div>
+</div>
+<div class="bee-col bee-col-2 bee-col-w6">
+<div class="bee-block bee-block-1 bee-divider">
+<div class="spacer" style="height:40px;"></div>
+</div>
+<div class="bee-block bee-block-2 bee-heading">
+<h1 style="color:#ffffff;direction:ltr;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;font-size:15px;font-weight:normal;letter-spacing:3px;line-height:150%;text-align:center;margin-top:0;margin-bottom:0;"><span style="background-color: #000000;">EVERYTHING YOU CAN IMAGINE</span><strong><span style="color: #ffffff;"> </span><span style="color: #ffffff;">IS REAL</span></strong> </h1>
+</div>
+<div class="bee-block bee-block-3 bee-divider">
+<div class="spacer" style="height:40px;"></div>
+</div>
+<div class="bee-block bee-block-4 bee-heading">
+<h1 style="color:#ffffff;direction:ltr;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;font-size:35px;font-weight:normal;letter-spacing:normal;line-height:150%;text-align:center;margin-top:0;margin-bottom:0;">“There is power in amassing those lines and gathering them in a way that asserts the creative is real.” </h1>
+</div>
+<div class="bee-block bee-block-5 bee-divider">
+<div class="spacer" style="height:40px;"></div>
+</div>
+<div class="bee-block bee-block-6 bee-button"><a class="bee-button-content" href="mailto:design@baderkh.gq?subject=" style="font-size: 12px; line-height: 24px; background-color: #ffffff; border-bottom: 0px solid #8a3b8f; border-left: 0px solid #8a3b8f; border-radius: 4px; border-right: 0px solid #8a3b8f; border-top: 0px solid #8a3b8f; color: #000000; font-family: inherit; letter-spacing: 2px; max-width: 100%; padding-bottom: 5px; padding-left: 10px; padding-right: 10px; padding-top: 5px; width: auto; display: inline-block;"><span style="font-size: 16px; line-height: 200%; word-break: break-word; letter-spacing: 2px;"><span style="font-size: 12px; line-height: 24px;"><strong><span style="font-size: 15px; line-height: 30px;">Contact&nbsp;</span></strong></span><span style="font-size: 15px; line-height: 30px;"><strong>Us</strong></span></span></a></div>
+<div class="bee-block bee-block-7 bee-image"><img alt="image-header" class="bee-center bee-fixedwidth" src="images/Untitled-1231.png" style="max-width:144px;"></div>
+</div>
+<div class="bee-col bee-col-3 bee-col-w3">
+<div class="bee-block bee-block-1 bee-divider">
+<div class="spacer" style="height:10px;"></div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</body></html>
